@@ -28,3 +28,24 @@ For registration or questions please send a mail (at best encrypted via [this ke
     if you'd like to share accomodation but have none
     if you can provide accomodation for someone
     if possible please attach PGP Key if not discoverable from your mail
+
+
+## one topic: in-band automatic, opportunistic mail encryption
+
+One hot topic arising from discussions at OpenPGPConf and PGPSummit 2016 is currently headlined "in-band automatic opportunistic mail encryption".  This scheme aims to:
+
+- manage key discovery through mails people send each other (no keyservers, extra services)
+
+- liberate users from having to manually manage encryption/decryption keys
+
+- only require mail send/receive functionality, works offline, no extra network requests
+
+- be easy to standardize by reusing existing standards 
+
+- follows ideas from [Opportunistic
+  Security](https://tools.ietf.org/html/rfc7435), particularly focuses first on protecting against passive network/provider attacks
+
+- implement multi-device sharing of secrets through "self-sent mails"
+
+- allow deletable encryption / forward secrecy (but this is not the first target)
+
