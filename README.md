@@ -19,28 +19,35 @@ We will meetup during the whole time at the [Onion office](http://www.openstreet
 
 Participation itself carries no fees but please pre-register and possibly help organize food and accomodations for everyone.   At this time (October 2016) AME2016 is a self-organized event without sponsoring.  If you would like to but can't come due to missing money please indicate it when sending your registration mail.
 
-For registration or questions please send a mail (at best encrypted via [this key](https://sks-keyservers.net/pks/lookup?op=get&fingerprint=on&search=0x8E3B03A279B772D6)) to holger at merlinux dot eu and provide the following:
+For registration or questions please send mail (at best encrypted via [this key](https://sks-keyservers.net/pks/lookup?op=get&fingerprint=on&search=0x8E3B03A279B772D6)) to holger at merlinux dot eu and provide the following:
 
     Name/Handle 
-    estimated arrival and departure time
     background/interest/project
+    estimated arrival and departure time
     if it's ok to publish your handle/name on the web page
     if you'd like to share accomodation but have none
     if you can provide accomodation for someone
     if possible please attach PGP Key if not discoverable from your mail
 
+Moreover, we have a mailing list for preparing the meeting to which you may subscribe here:
 
-## one topic: in-band automatic, opportunistic mail encryption
+    https://lists.mayfirst.org/mailman/listinfo/ame2016
 
-One hot topic arising from discussions at OpenPGPConf and PGPSummit 2016 is currently headlined "in-band automatic opportunistic mail encryption".  This scheme aims to:
+We are going to use to pre-discuss automatic mail encryption topics and logistics for the meeting.  
 
-- manage key discovery through mails people send each other (no keyservers, extra services)
+## major topic: in-band automatic, opportunistic mail encryption
+
+One hot topic arose from discussions about automatic mail encryption at OpenPGPConf and PGPSummit 2016 and is currently headlined "in-band automatic opportunistic mail encryption".  This scheme aims to:
+
+- manage key discovery through mails people send each other (no
+  keyservers, no dependency on extra services)
 
 - liberate users from having to manually manage encryption/decryption keys
 
-- only require mail send/receive functionality, works offline, no extra network requests
+- only depend on mail send/receive functionality, to work offline and to
+  produce no extra network requests
 
-- be easy to standardize by reusing existing standards 
+- be easy to standardize probably through an IETF draft.
 
 - follows ideas from [Opportunistic
   Security](https://tools.ietf.org/html/rfc7435), particularly focuses first on protecting against passive network/provider attacks
