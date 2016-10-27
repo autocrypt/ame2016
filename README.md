@@ -35,6 +35,11 @@ Moreover, please subscribe to this mailing list:
 
 We are going to pre-discuss there and discuss logistcal questions.
 
+
+## code of conduct
+
+The gathering follows the same ideas/rules as the [Python Community Code of Conduct](https://github.com/python/pycon-code-of-conduct/blob/master/code_of_conduct.md), in very short: Our gathering is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of participants in any form.  Do not insult or put down others.  Attendees violating these rules may be asked to leave at the sole discretion of the conference organizers.
+
 ## major topic: in-band opportunistic mail encryption
 
 One hot topic arose from discussions about automatic mail encryption at OpenPGPConf and PGPSummit 2016 and is currently headlined "in-band opportunistic mail encryption".  This scheme follows ideas from [Opportunistic Security](https://tools.ietf.org/html/rfc7435), particularly focuses first on protecting against passive network/provider attacks and in particular aims to:
