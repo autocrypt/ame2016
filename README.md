@@ -1,7 +1,7 @@
 
 # AME2016: Automatic Mail Encryption unconf + hackathon
 
-It's high time we get emails end-to-end encrypted for massively more users than today.  The AME2016 meetup at the Onion Offices in Berlin is where we want to discuss how to achieve that.  The gathering is meant to be a meetup of mail client developers, crypto researchers and people involved with standardization, useability and other cross-cutting concerns.  It's an unconference meaning that everybody can just-in-time bring ideas for sessions, prototypes and whatnots.  Some people will already meet a few days earlier for hacking and prototyping.
+It's high time we get emails end-to-end encrypted for massively more users than today.  The AME2016 meetup at the Onion Offices in Berlin is where we want to discuss how to achieve that.  We are a group of mail-program developers and researchers from different projects and backgrounds who got together at the PGPSummit and OpenPGPConf in 2016.  The gathering is meant for mail client developers, crypto researchers and people involved with standardization, useability and other cross-cutting concerns in mail encryption.  It's an unconference meaning that everybody can just-in-time bring ideas for sessions, prototypes and whatnots.  
 
 ## dates and location
 
@@ -17,7 +17,7 @@ We will meetup during the whole time at the [Onion office](http://www.openstreet
 
 ## participation, registration
 
-Participation itself carries no fees but please pre-register and possibly help organize food and accomodations for everyone.   AME2016 is a self-organized event without sponsoring.  If you would like to but can't come due to missing money please indicate it when sending your registration mail.
+Participation itself carries no fees. AME2016 is a self-organized low-cost event without sponsoring (as of October 2016). If you would like to but can't come due to missing money please indicate it when sending your registration mail and we'll look out for sponsoring.
 
 For registration or questions please send mail (if possible encrypted via [this key](https://sks-keyservers.net/pks/lookup?op=get&fingerprint=on&search=0x8E3B03A279B772D6)) to holger at merlinux dot eu and provide the following:
 
@@ -33,8 +33,7 @@ Moreover, please subscribe to this mailing list:
 
     https://lists.mayfirst.org/mailman/listinfo/ame2016
 
-We are going to pre-discuss there and discuss logistcal questions.
-
+We are going to pre-discuss there and also discuss logistcal questions.
 
 ## code of conduct
 
