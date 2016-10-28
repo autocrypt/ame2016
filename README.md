@@ -41,7 +41,7 @@ The gathering follows the same ideas/rules as the [Python Community Code of Cond
 
 ## major topic: in-band opportunistic mail encryption
 
-One hot topic arose from discussions about automatic mail encryption at OpenPGPConf and PGPSummit 2016 and is currently headlined "in-band opportunistic mail encryption".  This scheme follows ideas from [Opportunistic Security](https://tools.ietf.org/html/rfc7435), particularly focuses first on protecting against passive network/provider attacks and in particular aims to:
+One hot topic arose from discussions about automatic mail encryption at OpenPGPConf and PGPSummit 2016 and is currently headlined "in-band opportunistic mail encryption".  This scheme follows ideas from the post-snowden [RFC7435 Opportunistic Security](https://tools.ietf.org/html/rfc7435), particularly focuses first on protecting against passive network/provider attacks and in particular aims to:
 
 - liberate users from having to manually manage encryption/decryption keys
 
@@ -52,4 +52,4 @@ One hot topic arose from discussions about automatic mail encryption at OpenPGPC
 
 - implement multi-device sharing of secrets through "self-sent mails"
 
-Many of the involved topics have a history of discussion and reasoning behind them.  dkg and holger aim to write things up in November 2016 and also prototype in-band opportunistic mail encryption and will keep the above "ame2016" Mailing list updated about it.
+Many of the involved topics have a history of discussion and reasoning behind them.  dkg and holger aim to write things up in November 2016 and also prototype in-band opportunistic mail encryption and will keep the [ame2016 Mailing list](https://lists.mayfirst.org/mailman/listinfo/ame2016) updated about it.
