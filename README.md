@@ -19,6 +19,10 @@ We will meetup during the whole time at the [Onion office](http://www.openstreet
 
 Participation itself carries no fees. AME2016 is a self-organized low-cost event without sponsoring (as of October 2016). If you would like to but can't come due to missing money please indicate it when sending your registration mail and we'll look out for sponsoring.
 
+For registration please subscribe to the ame2016 Mailing list where updates regarding the event will be sent:
+
+    https://lists.mayfirst.org/mailman/listinfo/ame2016
+
 For registration or questions please send mail (if possible encrypted via [this key](https://sks-keyservers.net/pks/lookup?op=get&fingerprint=on&search=0x8E3B03A279B772D6)) to holger at merlinux dot eu and provide the following:
 
     Name/Handle 
@@ -28,12 +32,6 @@ For registration or questions please send mail (if possible encrypted via [this 
     if you'd like to share accomodation but have none
     if you can provide accomodation for someone
     if possible please attach PGP Key if not discoverable from your mail
-
-Moreover, please subscribe to this mailing list:
-
-    https://lists.mayfirst.org/mailman/listinfo/ame2016
-
-We are going to pre-discuss there and also discuss logistcal questions.
 
 ## code of conduct
 
