@@ -24,9 +24,7 @@ There is no fancy webform to register and no social media strategy to promote th
 
 AME2016 is a hands-on self-organized low-cost event without sponsoring (as of October 2016). If you would like to but can't come due to missing money please indicate it when sending your registration mail and we'll look out for sponsoring.
 
-For registration and pre-discussion we unsurprisingly have a mailing list:
-
-    https://lists.mayfirst.org/mailman/listinfo/ame2016
+For registration and pre-discussion please [subscribe to our mailing list](https://lists.mayfirst.org/mailman/listinfo/ame2016).
 
 And please be so kind to send mail to holger at merlinux.eu and provide the following:
 
