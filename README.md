@@ -32,7 +32,7 @@ We will meetup during the whole time at the [Onion office](http://www.openstreet
 
 ## participation, registration
 
-There is no fancy webform to register and no social media strategy to promote the meeting. We can only accomodate 20-30 people in the Onion Space anyway and are already like 10 people and growing. If you know someone else who might be interested to attend, then by all means ask them!  We'd like to have diverse set of people who share the goal of making pervasive e2e mail encryption a thing.
+There is no fancy webform to register and no social media strategy to promote the meeting. We can only accomodate 20-30 people in the Onion Space anyway and are already like 15-20 people and growing. If you know someone else who might be interested to attend, then by all means ask them!  We'd like to have diverse set of people who share the goal of making pervasive e2e mail encryption a thing.
 
 AME2016 is a hands-on self-organized low-cost event without much sponsoring. If you would like to but can't come due to missing money please indicate it when sending your registration mail and we'll look out for sponsoring. It's getting late to organize that, though.
 
