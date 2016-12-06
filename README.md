@@ -24,17 +24,17 @@ We will meetup during the whole time at the [Onion office](http://www.openstreet
 
 **Thursday, 15th: hackathon + federated messaging session** in the afternoon there is a session dedidcated to federated/decentralized low-latency messaging with Matthew from https://matrix.org, Dominic from https://scuttlebot.io, Marios from University of London and dkg/holger/vincent from INBOME as things tand.
 
-**Friday, 16th: hackathon, more arrivals** just a regular hacking and chatting day.
+**Friday, 16th: hackathon, more arrivals** just a regular hacking and chatting day but more fun because you don't get to hang out with this set of people usually.
 
-**Saturday, 17th: unconference on diverse automatic mail encryption related topics.**
+**Saturday, 17th: unconference on diverse automatic mail encryption related topics.** Currently registered are roughly 20 people engaged in diverse mail clients and enryption R&D contexts. We'll have some talks and do group sessions to discuss particular shared topics of interest.
 
-**Sunday, 18th: breakfast hackathon, wrap up around 1-2pm**
+**Sunday, 18th: breakfast hackathon, wrap up early afternoon**
 
 ## participation, registration
 
 There is no fancy webform to register and no social media strategy to promote the meeting. We can only accomodate 20-30 people in the Onion Space anyway and are already like 10 people and growing. If you know someone else who might be interested to attend, then by all means ask them!  We'd like to have diverse set of people who share the goal of making pervasive e2e mail encryption a thing.
 
-AME2016 is a hands-on self-organized low-cost event without sponsoring (as of October 2016). If you would like to but can't come due to missing money please indicate it when sending your registration mail and we'll look out for sponsoring.
+AME2016 is a hands-on self-organized low-cost event without much sponsoring. If you would like to but can't come due to missing money please indicate it when sending your registration mail and we'll look out for sponsoring. It's getting late to organize that, though.
 
 For registration and pre-discussion please [subscribe to our mailing list](https://lists.mayfirst.org/mailman/listinfo/ame2016).
 
