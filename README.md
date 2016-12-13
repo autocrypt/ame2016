@@ -20,15 +20,17 @@ We will meetup during the whole time at the [Onion office](http://www.openstreet
 
 ## Current state of Scheduling
 
-**Wednesday, 14th: arrivals** holger to pick up key and arrive in the morning at the onion space. Around 6-10 other arrivals are already expected. We'll probably want to scout the area for food and drinks, figure out networking, connect the projector and what not. IOW, hackathon and hanging out together starts.
+Official start time each day is around 9AM.  Very likely some will be there much earlier and have breakfast.
 
-**Thursday, 15th: hackathon + federated messaging session** in the afternoon there is a session dedidcated to federated/decentralized low-latency messaging with Matthew from https://matrix.org, Dominic from https://scuttlebot.io, Marios from University of London and dkg/holger/vincent from INBOME as things tand.
+**Wednesday, 14th: arrivals** holger and azul to pick up key and arrive around 10am at the onion space or possibly earlier. Around 6-10 other arrivals are expected that day. We'll start chatting, scout the area for food and drinks, figure out networking, connect the projector.  IOW, hackathon and hanging out together starts.
 
-**Friday, 16th: hackathon, more arrivals** just a regular hacking and chatting day but more fun because you don't get to hang out with this set of people usually.
+**Thursday, 15th: hackathon + federated messaging session** the first of us are to be at the space around 9AM.  At 10AM we do a little plenary session to organize the day. Around 2pm in the afternoon there is a session dedicated to federated/decentralized low-latency messaging with Matthew from https://matrix.org, Dominic from https://scuttlebot.io, Marios from University of London and dkg/holger/vincent from INBOME as things tand.
+
+**Friday, 16th: hackathon, more arrivals** 10AM plenary session, splitting into groups etc. just a regular hacking and chatting day but more fun because you don't get to hang out with this set of people usually.
 
 **Saturday, 17th: unconference on diverse automatic mail encryption related topics.** Currently registered are roughly 20 people engaged in diverse mail clients and enryption R&D contexts. We'll have some talks and do group sessions to discuss particular shared topics of interest.
 
-**Sunday, 18th: breakfast hackathon, wrap up early afternoon**
+**Sunday, 18th: breakfast hackathon and closing sessions, wrap up early afternoon**
 
 ## participation, registration
 
