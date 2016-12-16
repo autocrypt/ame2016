@@ -1,0 +1,131 @@
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<h1>Use-Cases for Sending Emails in Convenience Mode</h1>
+<h3>Terminology: </h3>
+<ul>
+  <li>Encryption of the content: 
+    <ul>
+      <li>&quot;open&quot;: Content is not encrypted</li>
+      <li>&quot;encrypted&quot;</li>
+    </ul>
+  </li>
+  <li>Transport of the encryption preference/information (INBOME headers) 
+    <ul>
+      <li>&quot;enc-requested&quot;: INBOME infos are sent signaling that encryption 
+        is preferred</li>
+      <li> &quot;enc-agnostic&quot;: INBOME infos are not sent or are not signaling 
+        that encryption is preferred</li>
+    </ul>
+  </li>
+</ul>
+<h3>General rules:</h3>
+<ul>
+  <li>Default is always open if keys are missing</li>
+  <li>When sending to multiple recipients, the defaulkt is always the weakest 
+    of the individual defaults</li>
+</ul>
+<h3>Individual rules:</h3>
+<table width="100%" border="1">
+  <tr> 
+    <td bgcolor="#CCCCCC" width="26%"><b><font color="#333333">Trigger</font></b></td>
+    <td bgcolor="#CCCCCC" width="26%"><b><font color="#333333">Last Email</font></b></td>
+    <td bgcolor="#CCCCCC" width="44%"><b><font color="#333333">Default</font></b></td>
+    <td width="4%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="26%">send new email (start new thread)</td>
+    <td width="26%">none</td>
+    <td width="44%">??? (there should probably be a default depending on whether 
+      we have the key)</td>
+    <td width="4%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="26%">&nbsp;</td>
+    <td width="26%">enc-agnostic</td>
+    <td width="44%">open</td>
+    <td width="4%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="26%">&nbsp;</td>
+    <td width="26%">enc-requested</td>
+    <td width="44%">encrypted</td>
+    <td width="4%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="26%">reply to email</td>
+    <td width="26%">open &amp; enc-agnostic</td>
+    <td width="44%">open</td>
+    <td width="4%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="26%">&nbsp;</td>
+    <td width="26%">open &amp; enc-requested</td>
+    <td width="44%">encrypted</td>
+    <td width="4%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="26%">&nbsp;</td>
+    <td width="26%">encrypted &amp; enc-agnostic</td>
+    <td width="44%"><b>encrypted !</b></td>
+    <td width="4%">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="26%">&nbsp;</td>
+    <td width="26%">encrypted &amp; enc-requested</td>
+    <td width="44%">encrypted</td>
+    <td width="4%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="26%">&nbsp;</td>
+    <td width="26%">&nbsp;</td>
+    <td width="44%">&nbsp;</td>
+    <td width="4%">&nbsp;</td>
+  </tr>
+</table>
+
+
+<h3><b>Remarks &amp; Consequences:</b></h3>
+<ul>
+  <li>encrypted &amp; enc-agnostic might happen if 
+    <ul>
+      <li>emails are encrypted without using INBOME</li>
+      <li>sender explicitly want to send the key but still prefers not to encrypt</li>
+    </ul>
+  </li>
+  <li>If a sender has different clients, one might send enc-requested, one might 
+    send enc-agnostic (web client, not supporting INBOME yet), then there is no 
+    perfect solution for always doing things right. The current approach is that 
+    the default for a new email would simply depend on the header of the last 
+    email, which might mean that whether encryption is used might change with 
+    each message 
+    <ul>
+      <li>As then the default might constantly change, users might have a problem, 
+        because people often hate situations that are hard to predict.</li>
+      <li>At least the default must be visible and easily modifyable.</li>
+      <li>Another approach might be to check the past emails (plural). E.g. if 
+        one of the past emails was enc-requested, then to encrypt. But then the 
+        question is how long to look back and whether users will hat that the 
+        default is &quot;always&quot; wrong after giving up encryption.</li>
+    </ul>
+  </li>
+  <li>The case &quot;reply to encrypted &amp; enc-agnostic =&gt; encrypted&quot; 
+    is there for a couple of reasons 
+    <ul>
+      <li>There might be a good reason that the last mail was encrypted, so this 
+        shouldn't not change without interaction/confirmation</li>
+      <li>When there are multiple recipients one enc-agnostic would then result 
+        into &quot;open&quot; (or the rule that we always take the weakest becomes 
+        more complicated)</li>
+      <li>The case that somebody lost a key, should anyway lead to a effect that 
+        the recipient replaced the key, but not suddenly switched to enc-agnostic.</li>
+    </ul>
+    <p>&nbsp;</p>
+  </li>
+</ul>
+</body>
+</html>
